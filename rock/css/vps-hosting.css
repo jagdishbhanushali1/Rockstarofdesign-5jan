@@ -1,0 +1,199 @@
+.innerDiv {
+  float: left;
+  width: 940px;
+}
+.vpsWrapper {
+ position: absolute;
+  left: 0;
+  width: 2820px;
+}
+.vpsMainWrapper {
+  overflow: hidden;
+  width: 940px;
+  height: 850px;
+  position: relative;
+ 
+}
+.sideFloat1 {
+    width: 350px;
+    float: left
+}
+.sideFloat2 {
+    width: 250px;
+    float: left
+}
+#adj-cont{ margin-top:-150px;}
+
+#plans-masthead.vps-masthead{height:363px; position:relative; background:url("../img/vps-banner.jpg") no-repeat 0 0; margin:-20px auto 0; width:1000px; padding-top:75px;}
+.vps-heading{text-align:center;  color:#fff; background:rgba(0, 0, 0, 0.6);  width:584px; padding-top:35px;  margin:auto; font:bold 86px/1 'Rokkitt',serif; text-shadow:2px 2px 2px #000; }
+.vps-features{text-align:center; font-size:18px; color:#5c5b5b; background:#fff; width:822px; padding:12px 0; margin:5px auto 5px;}
+.vps-powered-by-wp{background:rgba(0, 0, 0, 0.6); padding-bottom:5px;width:822px; margin:auto;}
+.vps-powered-by{text-align:center; color:#5c5b5b; font-size:14px;  background:#fff url("../img/vps-powered-by.jpg") no-repeat 0 35px; height:70px; padding:15px 0 5px;
+ border-bottom1:5px solid #333;}
+
+.vps-container{border-left:1px solid #dedcdc; border-right:1px solid #dedcdc; border-radius:6px 6px 0 0;}
+.vps-container table:hover, #vpshosting_vps_1 table:hover, #vpshosting_vps_3 table:hover, #vpshosting_vps_5 table:hover, #vpshosting_vps_7 table:hover, #vpshosting_vps_9 table:hover{background-color:#dff6fc;}
+.vps-container th{background-color:#f0f0f0; color:#3c3c3c; font-weight:bold; padding: 12px 14px;  font-size:16px;border-bottom:1px solid #dedcdc; border-top:1px solid #dedcdc;}
+.vps-container table.pricing-tbl td{font-size:16px; border-bottom:1px solid #dedcdc; padding:11px 14px;}
+.vps-container table.pricing-tbl td.p-name{border-right:1px solid #dedcdc;}
+.vps-container table.pricing-tbl{width:938px;}
+.vps-container table.pricing-tbl select{font-size:12px;}
+.vps-container table.pricing-tbl .w{width:95px;}
+.vps-container table.pricing-tbl .w2{width:120px;}
+.vps-container table.pricing-tbl .w1{width:*; padding-right:40px; text-align:right}
+#vpshosting_vps_1 table, #vpshosting_vps_3 table, #vpshosting_vps_5 table, #vpshosting_vps_7 table, #vpshosting_vps_9 table{background-color:#f9f9f9;}
+.ca{text-align:center;}
+.row-indent.padb0{padding-bottom:0px;}
+.vps-addons table{border-bottom:1px solid #dedcdc; width:100%;}
+.vps-addons table td{font-size:16px; padding:18px 14px; vertical-align:top; }
+.vps-addons table td.col1{width:135px;}
+.vps-addons table td.col2{width:350px;}
+.vps-addons table td.col2 li{padding-bottom:10px;}
+.vps-addons table td.col2 li.last{padding-bottom:0px;}
+.vps-addons table td.col3{width:*;}
+.vps-addons table td.col3 div{width:275px; font-size:14px; color:#949393;}
+.vps-addons .div-spacer{height:75px;}
+.vps-domain-name .vps-domain-block{width:483px; float:left; min-height:253px;}
+.vps-domain-name .vps-domain-block label{display:block;}
+.vps-domain-name .vps-domain-block #existing_domain_name{width:300px; margin-bottom:10px;}
+.vps-domain-name .vps-domain-block #existing_domain_name{*margin-right:5px; _margin-right:5px;}
+.vps-domain-name .dom-reg-wrp{ _height:30px;  *height:50px; _vertical-align:top; *vertical-align:top}
+.vps-domain-name .dom-reg-wrp .uiButton{_margin-left:5px; *margin-left:5px;}
+.vps-domain-name .vps-domain-block #new-domain-name{width:200px; margin-bottom:15px;}
+.vps-domain-name .or-seperator{margin:0px; margin-right:55px; height:90px; background-position:0 45px;}
+.vps-domain-name .or-seperator p{ left:195px; top:36px;}
+.vps-domain-block .error{margin-right:55px;}
+.vps-summary-block{float:right; width:300px;} 
+.vps-summary-block table{width:100%;}
+.vps-summary-block table th{padding:10px 20px; font-size:20px; color:#0f0f0f; background-color:#ededed}
+.vps-summary-block table td{padding:10px 20px; font-size:16px; background-color:#f6f6f6; border-top:2px solid #fff; }
+.vps-summary-block table td div{color:#949393; font-size:13px; font-style:italic;}
+.vps-summary-block .row-subtotal{background-color:#fff; text-align:right;}
+.vps-summary-block #vpsdomain{display:block;}
+
+.vps-step-1{ height:39px; width:720px; background:url("../img/vps-step-l1.jpg") no-repeat 0px 0;  position:absolute; top:0px; left:105px; z-index:1}
+.vps-step-2{ height:39px; width:134px; background:url("../img/vps-step-l2.jpg") no-repeat 0px 0; position:absolute; top:0px; left:105px; z-index:2; }
+.vps-step-bar1{height:12px; width:3px; background:url("../img/vps-step-bar.png") no-repeat 0px 0; position:absolute; top:14px; left:368px; z-index:3; display:none;}
+.vps-step-bar2{height:12px; width:3px; background:url("../img/vps-step-bar.png") no-repeat 0px 0; position:absolute; top:14px; left:594px; z-index:3; display:none;}
+
+
+#steps-wrp{position:relative;height:100px;}
+#steps-wrp ul{position:absolute; top:46px; left:0;}
+#steps-wrp li{width:234px; float:left; text-align:center; font-size:18px;}
+#steps-wrp li.sel{color:#93b921; font-weight:bold;}
+
+.bullet-list-sub{margin-left:15px;}
+.bullet-list-sub li{list-style: circle outside none;}
+
+.reg-domain-block{border:1px solid #797979; border-bottom:2px solid #aeafa4; padding:20px 12px; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #fdffe4) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #fdffe4 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fdffe4');
+	background-color:#fdffe4;
+	position:relative; z-index:5;
+}
+.reg-domain-block .up-arr{ background:url("../img/bbl-up-arr.png") no-repeat 0px 0; width:16px; height:10px; position:absolute; top:-9px; left:18px;}
+.reg-domain-block table{width:468px;}
+.reg-domain-block .d-name{color:#aeafa4; font-size:13px;}
+.reg-domain-block .ui-button-grn{font-size:12px; width:65px; padding:2px 5px;}
+.reg-domain-block #addbutton{text-align:right; padding-right:20px;}
+.reg-domain-block select{border: 1px solid #C9C8C9;
+    color: #565656;
+    font: 13px Arial,Helvetica,sans-serif;
+    padding: 2px;
+    width: 170px;
+	}
+
+.fred{color:#ff0000;}	
+.vpsMainWrapper .txt-button{font-size:15px; font-weight:normal; padding:7px 20px;}
+.vpsMainWrapper .uiButton{font-size:15px; font-weight:normal;}
+.vpsMainWrapper .link-back{padding-top:10px;}
+.vpsMainWrapper .link-back a{cursor:pointer;}
+
+.vps-container table.pricing-tbl td.p-button{padding:11px 0 11px 5px;}
+
+.p-dropdown{}
+.price-dropdown-wrp{position:relative;  height:32px; line-height:32px;}
+.price_dropdown{border:1px solid #797979; padding: 10px 0; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;
+    position: absolute;
+    width: 235px;
+    z-index: 5;
+	 right:-10px;
+	top:32px;
+	background:#fff;
+	box-shadow:0px 2px 2px #666;
+	display:none;
+	}
+.price_dropdown li{padding:0 12px 0 20px; text-align:left; line-height:30px; cursor:pointer; font-size:14px;}
+.select_price, .price_dropdown li:hover{background:#dff6fc;}
+.price_dropdown li.sel{background:#dff6fc url("../img/sel-tick.png") no-repeat 5px 12px;}
+.dropdown-value{background:url("../img/down-arr.png") no-repeat right 13px; padding-right:15px; cursor:pointer;}	
+.price_dropdown .up-arr{width:15px; height:8px; background:url("../img/up-arr.png") no-repeat 0px 0; position:absolute; top:-9px; right:16px;}
+.vpsMainWrapper #plans-container{overflow:visible;}
+.ca{text-align:center;}
+.frmButton-disable{cursor:default;}
+.frmButton-disable:hover{color:#555; cursor:default;}
+
+.btn_add_to_cart{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d1ff38), color-stop(1, #8ab016) );
+	background:-moz-linear-gradient( center top, #d1ff38 5%, #8ab016 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1ff38', endColorstr='#8ab016');
+	background-color:#d1ff38;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #799d0c;
+	display:inline-block;
+	color:#465d00;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:16px 58px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #cbe188;
+}
+.btn_add_to_cart:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8ab016), color-stop(1, #d1ff38) );
+	background:-moz-linear-gradient( center top, #8ab016 5%, #d1ff38 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8ab016', endColorstr='#d1ff38');
+	background-color:#8ab016;
+	color:#465d00;
+}
+.btn_add_to_cart:active {
+	position:relative;
+	top:1px;
+}
+.btn_add_to_cart_dis{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	-ms-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#555;
+	font-family:arial;
+	font:bold 18px Arial, Helvetica, sans-serif;
+	padding:16px 58px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	cursor:default;
+	}
+.btn_add_to_cart_dis:hover{cursor:default; color:#555;}
+
+.tooltip{display:block;}
+.hide{display:none}
+.ic-vps-1{background: url("../img/ic-vps-1.jpg") no-repeat scroll 0 40px transparent;}
+.ic-vps-2{background: url("../img/ic-vps-2.jpg") no-repeat scroll 0 23px transparent;}
+.ic-vps-3{background: url("../img/ic-vps-3.jpg") no-repeat scroll 0 20px transparent;}
+
+.home-blurbs ul{position:relative; z-index:2;}
+#reseller-hosting .img-holder{z-index:1;}

@@ -1,0 +1,23 @@
+.idomain-box .frm-select{height:32px;}
+.idomain-box .tld-box{width:580px;}
+.hastab.tabs-wrapper{ margin-left:-30px; width:1000px; text-align:left;}
+.hastab.tabs-wrapper .tab{ padding-left:30px;}
+#domain-box, #idn-box{ min-height:250px;}
+.dname-wrp .dname-option{ font:normal 13px Arial, Helvetica, sans-serif; color:#777; display:block; padding-top:3px;}
+.txt-green{ color:#6fc61e;}
+.cursive{
+    background: url("/getImage.php?src=cursive-arrow.png") no-repeat scroll 60px 3px transparent;
+    color: #5B5B5B;
+    font: italic 18px "Palatino Linotype","Book Antiqua",Palatino,serif;
+    padding: 0 0 17px 110px;
+    position: absolute;
+    top: -57px;
+    z-index: 121;
+	}
+.tld-box .highlight{
+	background-color: #fcff9f;
+    display: inline-block;
+    padding: 10px;
+	margin-left:-10px;}
+.placeholder-txt1{ color:#6B6B6B; font-weight:bold;}
+#domain-box, #idn-box{ position:relative;}
